@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuthUI
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        if FIRAuth.auth()!.currentUser != nil{
+            print("there is a user \(FIRAuth.auth()?.currentUser)")
+            FirebaseHelper.getUser(FIRAuth.auth()!.currentUser!.uid, completionBlock: { (user: User) in
+                FirebaseHelper.currentUser = user
+                
+                FirebaseHelper.setOnline()
+                //Move to main screen
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+                self.window?.rootViewController = storyboard.instantiateViewControllerWithIdentifier("Chat")
+                self.window?.makeKeyAndVisible()
+            })
+            
+        }
         return true
     }
 

@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FADBBA330E5867EA9FC2262 /* Pods_MakeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B61A5B6EA4D2F39AA2A0A2 /* Pods_MakeChat.framework */; };
 		D30309511D2C217B006D2A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309501D2C217B006D2A09 /* AppDelegate.swift */; };
-		D30309531D2C217B006D2A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309521D2C217B006D2A09 /* ViewController.swift */; };
 		D30309561D2C217B006D2A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30309541D2C217B006D2A09 /* Main.storyboard */; };
 		D30309581D2C217B006D2A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30309571D2C217B006D2A09 /* Assets.xcassets */; };
 		D303095B1D2C217B006D2A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30309591D2C217B006D2A09 /* LaunchScreen.storyboard */; };
+		D30309631D2C2240006D2A09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D30309621D2C2240006D2A09 /* GoogleService-Info.plist */; };
+		D30309701D2C2A89006D2A09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303096B1D2C2A89006D2A09 /* User.swift */; };
+		D30309711D2C2A89006D2A09 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303096E1D2C2A89006D2A09 /* SignInViewController.swift */; };
+		D30309731D2C2AE4006D2A09 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309721D2C2AE4006D2A09 /* ErrorHandling.swift */; };
+		D30309751D2C2B2A006D2A09 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309741D2C2B2A006D2A09 /* Constants.swift */; };
+		D30309771D2C2D30006D2A09 /* ChatsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309761D2C2D30006D2A09 /* ChatsListViewController.swift */; };
+		D303097A1D2C30A7006D2A09 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309791D2C30A7006D2A09 /* FirebaseHelper.swift */; };
+		D303097C1D2C30D1006D2A09 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303097B1D2C30D1006D2A09 /* ChatViewController.swift */; };
+		D303097E1D2C5486006D2A09 /* ChatsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303097D1D2C5486006D2A09 /* ChatsListItem.swift */; };
+		D30309801D2C75A7006D2A09 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303097F1D2C75A7006D2A09 /* Message.swift */; };
+		D30309821D2C7C45006D2A09 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30309811D2C7C45006D2A09 /* MessageCell.swift */; };
+		D390F16F1D2EEA0B007EE6D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390F16E1D2EEA0B007EE6D3 /* ProfileViewController.swift */; };
+		D3E5EA921D2D661D00420F5F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5EA911D2D661D00420F5F /* Chat.swift */; };
+		D3E5EA941D2D86CA00420F5F /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5EA931D2D86CA00420F5F /* UserSearchViewController.swift */; };
+		D3E5EA961D2D874500420F5F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5EA951D2D874500420F5F /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80B61A5B6EA4D2F39AA2A0A2 /* Pods_MakeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B43E7C3F390FB89860264 /* Pods-MakeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChat/Pods-MakeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D215E547A546A43A25F30FD3 /* Pods-MakeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChat/Pods-MakeChat.release.xcconfig"; sourceTree = "<group>"; };
 		D303094D1D2C217B006D2A09 /* MakeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30309501D2C217B006D2A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D30309521D2C217B006D2A09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D30309551D2C217B006D2A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D30309571D2C217B006D2A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D303095A1D2C217B006D2A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D303095C1D2C217B006D2A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30309621D2C2240006D2A09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D303096B1D2C2A89006D2A09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D303096E1D2C2A89006D2A09 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D30309721D2C2AE4006D2A09 /* ErrorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		D30309741D2C2B2A006D2A09 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D30309761D2C2D30006D2A09 /* ChatsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsListViewController.swift; sourceTree = "<group>"; };
+		D30309791D2C30A7006D2A09 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		D303097B1D2C30D1006D2A09 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D303097D1D2C5486006D2A09 /* ChatsListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsListItem.swift; sourceTree = "<group>"; };
+		D303097F1D2C75A7006D2A09 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D30309811D2C7C45006D2A09 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D390F16E1D2EEA0B007EE6D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D3E5EA911D2D661D00420F5F /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D3E5EA931D2D86CA00420F5F /* UserSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		D3E5EA951D2D874500420F5F /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FADBBA330E5867EA9FC2262 /* Pods_MakeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21AD2B50101BF3A777D0C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B61A5B6EA4D2F39AA2A0A2 /* Pods_MakeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D30309441D2C217B006D2A09 = {
 			isa = PBXGroup;
 			children = (
 				D303094F1D2C217B006D2A09 /* MakeChat */,
 				D303094E1D2C217B006D2A09 /* Products */,
+				E091145E02107927DF386F52 /* Pods */,
+				C21AD2B50101BF3A777D0C8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +98,68 @@
 			isa = PBXGroup;
 			children = (
 				D30309501D2C217B006D2A09 /* AppDelegate.swift */,
-				D30309521D2C217B006D2A09 /* ViewController.swift */,
+				D30309681D2C2A89006D2A09 /* Helper */,
+				D303096A1D2C2A89006D2A09 /* Model */,
+				D303096C1D2C2A89006D2A09 /* View */,
+				D303096D1D2C2A89006D2A09 /* View Controller */,
 				D30309541D2C217B006D2A09 /* Main.storyboard */,
 				D30309571D2C217B006D2A09 /* Assets.xcassets */,
 				D30309591D2C217B006D2A09 /* LaunchScreen.storyboard */,
 				D303095C1D2C217B006D2A09 /* Info.plist */,
+				D30309621D2C2240006D2A09 /* GoogleService-Info.plist */,
 			);
 			path = MakeChat;
+			sourceTree = "<group>";
+		};
+		D30309681D2C2A89006D2A09 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D30309791D2C30A7006D2A09 /* FirebaseHelper.swift */,
+				D30309741D2C2B2A006D2A09 /* Constants.swift */,
+				D30309721D2C2AE4006D2A09 /* ErrorHandling.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D303096A1D2C2A89006D2A09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D303096B1D2C2A89006D2A09 /* User.swift */,
+				D303097F1D2C75A7006D2A09 /* Message.swift */,
+				D3E5EA911D2D661D00420F5F /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D303096C1D2C2A89006D2A09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D303097D1D2C5486006D2A09 /* ChatsListItem.swift */,
+				D30309811D2C7C45006D2A09 /* MessageCell.swift */,
+				D3E5EA951D2D874500420F5F /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D303096D1D2C2A89006D2A09 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D303096E1D2C2A89006D2A09 /* SignInViewController.swift */,
+				D30309761D2C2D30006D2A09 /* ChatsListViewController.swift */,
+				D303097B1D2C30D1006D2A09 /* ChatViewController.swift */,
+				D3E5EA931D2D86CA00420F5F /* UserSearchViewController.swift */,
+				D390F16E1D2EEA0B007EE6D3 /* ProfileViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E091145E02107927DF386F52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B43E7C3F390FB89860264 /* Pods-MakeChat.debug.xcconfig */,
+				D215E547A546A43A25F30FD3 /* Pods-MakeChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D303095F1D2C217B006D2A09 /* Build configuration list for PBXNativeTarget "MakeChat" */;
 			buildPhases = (
+				F2FF521890512226680CCF4C /* [CP] Check Pods Manifest.lock */,
 				D30309491D2C217B006D2A09 /* Sources */,
 				D303094A1D2C217B006D2A09 /* Frameworks */,
 				D303094B1D2C217B006D2A09 /* Resources */,
+				14648A7487C7E49223E32AE3 /* [CP] Embed Pods Frameworks */,
+				947B2936585180CAE54EDEAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +197,7 @@
 				TargetAttributes = {
 					D303094C1D2C217B006D2A09 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P3XRP6EUV6;
 					};
 				};
 			};
@@ -125,18 +227,80 @@
 				D303095B1D2C217B006D2A09 /* LaunchScreen.storyboard in Resources */,
 				D30309581D2C217B006D2A09 /* Assets.xcassets in Resources */,
 				D30309561D2C217B006D2A09 /* Main.storyboard in Resources */,
+				D30309631D2C2240006D2A09 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14648A7487C7E49223E32AE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeChat/Pods-MakeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947B2936585180CAE54EDEAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeChat/Pods-MakeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FF521890512226680CCF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D30309491D2C217B006D2A09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30309531D2C217B006D2A09 /* ViewController.swift in Sources */,
+				D30309821D2C7C45006D2A09 /* MessageCell.swift in Sources */,
+				D3E5EA921D2D661D00420F5F /* Chat.swift in Sources */,
+				D303097A1D2C30A7006D2A09 /* FirebaseHelper.swift in Sources */,
+				D303097E1D2C5486006D2A09 /* ChatsListItem.swift in Sources */,
+				D30309711D2C2A89006D2A09 /* SignInViewController.swift in Sources */,
+				D303097C1D2C30D1006D2A09 /* ChatViewController.swift in Sources */,
+				D3E5EA961D2D874500420F5F /* UserCell.swift in Sources */,
+				D30309731D2C2AE4006D2A09 /* ErrorHandling.swift in Sources */,
 				D30309511D2C217B006D2A09 /* AppDelegate.swift in Sources */,
+				D30309701D2C2A89006D2A09 /* User.swift in Sources */,
+				D3E5EA941D2D86CA00420F5F /* UserSearchViewController.swift in Sources */,
+				D30309801D2C75A7006D2A09 /* Message.swift in Sources */,
+				D390F16F1D2EEA0B007EE6D3 /* ProfileViewController.swift in Sources */,
+				D30309771D2C2D30006D2A09 /* ChatsListViewController.swift in Sources */,
+				D30309751D2C2B2A006D2A09 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,22 +413,26 @@
 		};
 		D30309601D2C217B006D2A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2B43E7C3F390FB89860264 /* Pods-MakeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MakeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brianhans.MakeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianhans.makechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D30309611D2C217B006D2A09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D215E547A546A43A25F30FD3 /* Pods-MakeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MakeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brianhans.MakeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianhans.makechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -288,6 +456,7 @@
 				D30309611D2C217B006D2A09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
